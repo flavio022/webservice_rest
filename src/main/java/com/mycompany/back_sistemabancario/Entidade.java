@@ -5,10 +5,13 @@
  */
 package com.mycompany.back_sistemabancario;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
 /**
  *
  * @author flavio
  */
+@XmlRootElement
 public class Entidade {
     String nome;
     String desc;

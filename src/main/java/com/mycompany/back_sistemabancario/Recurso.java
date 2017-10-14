@@ -28,7 +28,7 @@ public class Recurso {
     }
     @GET
     @Path("/ws")
-    @Produces(MediaType.APPLICATION_JSON)
+    @Produces({MediaType.APPLICATION_JSON,MediaType.APPLICATION_XML})
     public Response metodo1(){
         Entidade e = new Entidade();
         e.setNome(at1);
